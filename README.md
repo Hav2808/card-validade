@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "4.Организация тестирования"
 
-**CI** [![Build status](https://ci.appveyor.com/api/projects/status/km3a74utn35l45e9?svg=true)](https://ci.appveyor.com/project/Dimafdr/ahj-testing)    [GitHub Pages] (https://dimafdr.github.io/ahj-testing/)
+**CI** [![Build status](https://ci.appveyor.com/api/projects/status/km3a74utn35l45e9?svg=true)](https://ci.appveyor.com/project/Dimafdr/ahj-testing)    [GitHub Pages](https://dimafdr.github.io/ahj-testing/)
 
 
 Правила сдачи задания:
