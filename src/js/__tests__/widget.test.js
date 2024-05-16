@@ -1,5 +1,11 @@
 import { InnFormWidget } from "../widget"
 
+import { JSDOM } from 'jsdom';
+
+const { window } = new JSDOM();
+global.document = window.document;
+global.window = window;
+
 test('widget should render', () => {
     document.body.innerHTML = '<div class="container"></div>';
 

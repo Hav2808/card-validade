@@ -25,6 +25,7 @@ describe("test validator form", () => {
     });
     page = await browser.newPage();
   }, 35000);
+  
 
   test("visa", async () => {
     // jest.setTimeout(35000);
@@ -35,6 +36,7 @@ describe("test validator form", () => {
     await submit.click();
     await page.waitForSelector(".cardVisa.active");
   }, 35000);
+
 
   test("AmericanExpress", async () => {
     await page.goto(baseUrl);
@@ -50,3 +52,5 @@ describe("test validator form", () => {
     server.kill();
   });
 });
+
+

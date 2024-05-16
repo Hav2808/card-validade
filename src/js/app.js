@@ -7,7 +7,7 @@ document.querySelector("#card-submit").addEventListener("click", (event) => {
   if (validate(num)) {
     paySystem(num);
   } else {
-    alert("Invalid card number");
+    alert("Карта не существует");
   }
 });
 document.querySelector("#input-reset").addEventListener((event) => {
