@@ -15,6 +15,7 @@
     "show:coverage": "live-server testcover/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
+    
   },
   "author": "Hav28",
   "license": "MIT",

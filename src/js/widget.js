@@ -42,16 +42,18 @@ export class InnFormWidget {
     }
 
     onSubmit(e) {
-        e.preventDefault();
-
+        if (e) {
+            e.preventDefault();
+        }
+        
         const value = this.input.value;
-
-        if(isValidInn(value)) {
-            this.input.classList.add('valid');
-            this.input.classList.remove('invalid');
-        } else {
+        
+        if (value.trim() === '' || !/^\d+$/.test(value)) {
             this.input.classList.add('invalid');
             this.input.classList.remove('valid');
+        } else {
+            this.input.classList.remove('invalid');
+            this.input.classList.add('valid');
         }
     }
 }
